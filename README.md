@@ -56,37 +56,37 @@ engineering:
 
 ---
 
-## `> tech-stack`
+<h2 align="center"><code>&gt; tech-stack</code></h2>
 
-### Frontend
+<h3 align="center">Frontend</h3>
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,vite" alt="Frontend stack" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/TanStack_Query-0B1020?style=flat-square&logo=reactquery&logoColor=FF4154" />
   <img src="https://img.shields.io/badge/Zustand-0B1020?style=flat-square&logo=react&logoColor=22D3EE" />
   <img src="https://img.shields.io/badge/React_Hook_Form-0B1020?style=flat-square&logo=reacthookform&logoColor=EC5990" />
   <img src="https://img.shields.io/badge/Feature--Sliced_Design-0B1020?style=flat-square&logo=layers&logoColor=8B5CF6" />
 </p>
 
-### Testing & quality
+<h3 align="center">Testing & quality</h3>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Vitest-0B1020?style=for-the-badge&logo=vitest&logoColor=6E9F18" />
   <img src="https://img.shields.io/badge/Playwright-0B1020?style=for-the-badge&logo=playwright&logoColor=2EAD33" />
   <img src="https://img.shields.io/badge/ESLint-0B1020?style=for-the-badge&logo=eslint&logoColor=8080F2" />
   <img src="https://img.shields.io/badge/TypeScript_Strict-0B1020?style=for-the-badge&logo=typescript&logoColor=3178C6" />
 </p>
 
-### Backend & infrastructure
+<h3 align="center">Backend & infrastructure</h3>
 
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,postgres,docker,nginx,git,figma" alt="Backend and infrastructure" />
 </p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Fastify-0B1020?style=flat-square&logo=fastify&logoColor=FFFFFF" />
   <img src="https://img.shields.io/badge/WebSocket-0B1020?style=flat-square&logo=socketdotio&logoColor=22D3EE" />
   <img src="https://img.shields.io/badge/REST_API-0B1020?style=flat-square&logo=swagger&logoColor=85EA2D" />
@@ -103,86 +103,13 @@ engineering:
   <img src="./assets/ai-workflow.svg" width="100%" alt="AI-assisted engineering workflow" />
 </p>
 
-Использую AI не как «генератор кода по промпту», а как часть управляемого инженерного процесса.
+Использую Claude Code и Codex для разработки, GitHub Spec Kit — для работы со спецификациями.
 
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-0B1020?style=for-the-badge&logo=anthropic&logoColor=D4A574" />
   <img src="https://img.shields.io/badge/OpenAI_Codex-0B1020?style=for-the-badge&logo=openai&logoColor=22D3EE" />
   <img src="https://img.shields.io/badge/GitHub_Spec_Kit-0B1020?style=for-the-badge&logo=github&logoColor=C4B5FD" />
 </p>
-
----
-
-## `> current-work`
-
-### ORBIT — personal planning system
-
-**React 19 · TypeScript strict · Fastify · PostgreSQL · FSD · Vitest · Playwright · Docker**
-
-Приложение вокруг цикла **план → выполнение → фиксация → обзор → корректировка**.
-
-- server-backed persistence в PostgreSQL;
-- explicit domain rules вместо «магического» поведения;
-- Feature-Sliced Design и проверяемые архитектурные границы;
-- разработка полностью по **GitHub Spec Kit / SDD**;
-- **603 unit tests**;
-- **67 Playwright tests**;
-- coverage около **86% statements / 81% branches**;
-- E2E, visual checks, responsive и accessibility-проверки входят в quality gate.
-
-> Repository is currently private.
-
-<br/>
-
-### Financial AI — investment platform
-
-**React 19 · TypeScript · FastAPI · PostgreSQL · TanStack Query · Docker · T-Bank Invest API**
-
-Платформа для AI-assisted управления инвестиционным портфелем и торговли на российском фондовом рынке.
-
-Первая фича — **Investment Account State** — работает на живых данных:
-
-- `backend-api` + `backend-worker` + PostgreSQL + frontend;
-- данные счёта получаются из T-Bank Invest API и сохраняются во внутреннем хранилище;
-- frontend построен на React, TypeScript, FSD и TanStack Query;
-- backend — Python / FastAPI / SQLAlchemy / Alembic;
-- **158 backend tests + 94 frontend tests**;
-- полный `check.sh` quality gate включает тесты, типы, форматирование, миграции и Docker build.
-
-> Repository is currently private.
-
----
-
-## `> commercial-experience`
-
-### Frontend engineering
-
-В коммерческой разработке работал над системой управления и мониторинга сетевой инфраструктуры.
-
-Ключевые задачи:
-
-- интерактивный редактор топологии сети;
-- клиентская ролевая модель и управление правами;
-- графический конструктор триггеров с парсингом и валидацией;
-- таблицы больших наборов данных с группировкой, фильтрацией и виртуализацией;
-- WebSocket и REST-интеграции;
-- участие в проектировании frontend/backend API-контрактов;
-- unit-тестирование ключевых frontend-модулей с покрытием более 80%.
-
----
-
-## `> background`
-
-```yaml
-education:
-  - Tomsk Polytechnic University
-  - Master's degree — Internet Application Development
-  - graduated with honors
-
-languages:
-  Russian: native
-  English: B2
-```
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=oia2&label=profile+views&color=3B82F6&style=flat-square" alt="Profile views" />
