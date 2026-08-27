@@ -1,0 +1,51 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="60" y1="20" x2="1140" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.52" stop-color="#111B3A"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="260" y1="0" x2="930" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.52" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(950 35) rotate(136) scale(330 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(220 300) rotate(-40) scale(370 250)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#94A3B8" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="20"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glowA)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#glowB)"/>
+  <circle cx="1025" cy="70" r="92" fill="#8B5CF6" fill-opacity=".08" filter="url(#soft)"/>
+  <circle cx="160" cy="276" r="90" fill="#22D3EE" fill-opacity=".08" filter="url(#soft)"/>
+  <g opacity=".95">
+    <rect x="46" y="38" width="210" height="34" rx="17" fill="#0F172A" stroke="#334155"/>
+    <circle cx="65" cy="55" r="4" fill="#22D3EE"/>
+    <text x="79" y="61" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">github.com/oia2</text>
+  </g>
+  <text x="600" y="135" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="1.2">OLEG ANISIMOV</text>
+  <rect x="336" y="158" width="528" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="600" y="198" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="600" letter-spacing=".8">FRONTEND DEVELOPER · REACT / TYPESCRIPT</text>
+  <text x="600" y="232" text-anchor="middle" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="500">Architecture · Data-heavy interfaces · AI-assisted engineering</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
+    <rect x="376" y="258" width="128" height="34" rx="17" fill="#0F172A" stroke="#155E75"/>
+    <text x="440" y="280" text-anchor="middle" fill="#67E8F9">REACT</text>
+    <rect x="520" y="258" width="160" height="34" rx="17" fill="#0F172A" stroke="#1D4ED8"/>
+    <text x="600" y="280" text-anchor="middle" fill="#93C5FD">TYPESCRIPT</text>
+    <rect x="696" y="258" width="128" height="34" rx="17" fill="#0F172A" stroke="#6D28D9"/>
+    <text x="760" y="280" text-anchor="middle" fill="#C4B5FD">SDD + AI</text>
+  </g>
+</svg>
