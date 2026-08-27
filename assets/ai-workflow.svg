@@ -1,0 +1,38 @@
+<svg width="1200" height="270" viewBox="0 0 1200 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="50" y1="30" x2="1160" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset=".55" stop-color="#10182F"/>
+      <stop offset="1" stop-color="#0B1020"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="110" y1="0" x2="1090" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="270" rx="24" fill="url(#bg2)"/>
+  <text x="56" y="54" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">AI-assisted engineering workflow</text>
+  <text x="56" y="82" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">AI is part of the engineering process — specification, implementation, review and verification.</text>
+  <path d="M202 151H316 M486 151H600 M770 151H884" stroke="url(#flow)" stroke-width="3" stroke-linecap="round"/>
+  <path d="M306 144L316 151L306 158" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M590 144L600 151L590 158" stroke="#60A5FA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M874 144L884 151L874 158" stroke="#A78BFA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="48" y="110" width="154" height="84" rx="18" fill="#0F172A" stroke="#155E75"/>
+    <text x="125" y="140" text-anchor="middle" fill="#67E8F9" font-size="16" font-weight="800">SPECIFY</text>
+    <text x="125" y="166" text-anchor="middle" fill="#CBD5E1" font-size="14">GitHub Spec Kit</text>
+    <rect x="316" y="110" width="170" height="84" rx="18" fill="#0F172A" stroke="#1D4ED8"/>
+    <text x="401" y="140" text-anchor="middle" fill="#93C5FD" font-size="16" font-weight="800">PLAN</text>
+    <text x="401" y="166" text-anchor="middle" fill="#CBD5E1" font-size="14">contracts · tasks</text>
+    <rect x="600" y="110" width="170" height="84" rx="18" fill="#0F172A" stroke="#4338CA"/>
+    <text x="685" y="140" text-anchor="middle" fill="#A5B4FC" font-size="16" font-weight="800">IMPLEMENT</text>
+    <text x="685" y="164" text-anchor="middle" fill="#CBD5E1" font-size="14">Claude Code</text>
+    <text x="685" y="183" text-anchor="middle" fill="#CBD5E1" font-size="14">OpenAI Codex</text>
+    <rect x="884" y="110" width="268" height="84" rx="18" fill="#0F172A" stroke="#6D28D9"/>
+    <text x="1018" y="140" text-anchor="middle" fill="#C4B5FD" font-size="16" font-weight="800">VERIFY</text>
+    <text x="1018" y="164" text-anchor="middle" fill="#CBD5E1" font-size="14">lint · typecheck · tests</text>
+    <text x="1018" y="183" text-anchor="middle" fill="#CBD5E1" font-size="14">E2E · visual · quality gates</text>
+  </g>
+  <text x="600" y="232" text-anchor="middle" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">specification → explicit decisions → agent implementation → evidence</text>
+</svg>
