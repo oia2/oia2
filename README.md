@@ -56,7 +56,7 @@ engineering:
 
 ---
 
-<h2 align="center"><code>&gt; tech-stack</code></h2>
+## `> tech-stack`
 
 <h3 align="center">Frontend</h3>
 
@@ -103,12 +103,13 @@ engineering:
   <img src="./assets/ai-workflow.svg" width="100%" alt="AI-assisted engineering workflow" />
 </p>
 
-Использую Claude Code и Codex для разработки, GitHub Spec Kit — для работы со спецификациями.
+Использую Claude Code и Codex для агентной разработки, GitHub Spec Kit — для работы со спецификациями, Open Design — для проработки интерфейсов.
 
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-0B1020?style=for-the-badge&logo=anthropic&logoColor=D4A574" />
   <img src="https://img.shields.io/badge/OpenAI_Codex-0B1020?style=for-the-badge&logo=openai&logoColor=22D3EE" />
   <img src="https://img.shields.io/badge/GitHub_Spec_Kit-0B1020?style=for-the-badge&logo=github&logoColor=C4B5FD" />
+  <img src="https://img.shields.io/badge/Open_Design-0B1020?style=for-the-badge&logoColor=8B5CF6" />
 </p>
 
 <p align="center">
