@@ -22,8 +22,8 @@ Palette
   <a href="https://t.me/BoostMongoose">
     <img src="https://img.shields.io/badge/Telegram-0B1020?style=for-the-badge&logo=telegram&logoColor=22D3EE" alt="Telegram" />
   </a>
-  <a href="mailto:oleg20027855@mail.ru">
-    <img src="https://img.shields.io/badge/Email-0B1020?style=for-the-badge&logo=gmail&logoColor=3B82F6" alt="Email" />
+  <a href="https://www.linkedin.com/in/oleg-anisimov-a232113b7/">
+    <img src="https://img.shields.io/badge/LinkedIn-0B1020?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn" />
   </a>
   <a href="https://github.com/oia2">
     <img src="https://img.shields.io/badge/@oia2-0B1020?style=for-the-badge&logo=github&logoColor=C4B5FD" alt="GitHub" />
@@ -53,10 +53,6 @@ engineering:
   - automate quality checks
   - prefer measurable behavior over implicit assumptions
 ```
-
-I build frontend systems where UI complexity is driven by real domain logic: interactive editors, large datasets, permissions, API contracts, realtime updates and non-trivial state.
-
-In commercial development I have built React/TypeScript interfaces from scratch, worked on network-monitoring products, designed role-aware UI, graphical editors, virtualized data tables and introduced unit testing for key frontend modules.
 
 ---
 
@@ -114,28 +110,6 @@ In commercial development I have built React/TypeScript interfaces from scratch,
   <img src="https://img.shields.io/badge/OpenAI_Codex-0B1020?style=for-the-badge&logo=openai&logoColor=22D3EE" />
   <img src="https://img.shields.io/badge/GitHub_Spec_Kit-0B1020?style=for-the-badge&logo=github&logoColor=C4B5FD" />
 </p>
-
-**Как устроен процесс:**
-
-```text
-constitution
-    ↓
-specify → clarify → plan → tasks
-                         ↓
-                 Claude Code / Codex
-                         ↓
-                     implement
-                         ↓
-          lint · typecheck · tests · E2E
-                         ↓
-                    verification
-```
-
-- **Claude Code** — реализация фич, работа с кодовой базой, рефакторинг, анализ и исправление дефектов.
-- **OpenAI Codex** — реализация, review, поиск архитектурных и логических проблем, работа по готовым спецификациям.
-- **GitHub Spec Kit / Spec-Driven Development** — требования, уточнения, архитектурный план, декомпозиция и трассировка до проверки.
-- **`AGENTS.md` и проектный контекст** — фиксирую ограничения и правила, чтобы агент не принимал критические решения «из воздуха».
-- **Quality gates** — задача не считается завершённой только потому, что код написан: результат подтверждается типами, линтерами, тестами, E2E и другими применимыми проверками.
 
 ---
 
